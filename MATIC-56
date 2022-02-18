@@ -1,5 +1,4 @@
-require("@nomiclabs/hardhat-ethers");
-
+npx hardhat run scripts/deploy.js --network matic
 module.exports = {
   defaultNetwork: "matic",
   networks: {
